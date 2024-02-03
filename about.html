@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christal International</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <header>
+        <h1>Christal International</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html" target="_self">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact us.html">Contact Us</a>
+    </nav>
+    <!--Internal Css-->
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        #carouselExample {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            background-color: black;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .carousel-item {
+            height: 150rem;
+
+        }
+        .carousel-item img{
+            width: 100%;
+            max-height: 600px;
+        }
+        .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-container {
+    width: 48%;
+    box-sizing: border-box;
+  }
+  .container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    </style>
+</head>
+
+<body>
+    <section id="about">
+        <h2>About Us</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active h-25">
+                    <img src="pexels-thnh-phng-698516.jpg" class="img-fluid d-block object-fit-cover h-aut" alt="Image 1"
+                        width="80%">
+                </div>
+                <div class="carousel-item active h-25">
+                    <img src="pexels-katerina-holmes-5905927.jpg" class="d-block img-fluid" alt="Image 2" width="80%">
+
+                </div>
+                <div class="carousel-item active h-25">
+                    <img src="pexels-rdne-stock-project-8499542.jpg" class="d-block img-fluid" alt="Image 2 "
+                        width="80%">
+                </div>
+                <!-- Add more carousel items as needed -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p>
+        <h2>Who we are</h2>
+        </p>
+        <div class="container-fluid">
+            <style>
+                .custom-image {
+                    max-width: 60%; 
+                    height: auto; 
+                    transition: all 0.3s ease-in-out; 
+                    border-radius: 10px 10px 0 0; 
+                }
+        
+                .custom-image:hover {
+                    transform: scale(0.9); 
+                    border-radius: 10px; 
+                }
+            </style>
+            <div class="row m-auto">
+                <div class="col-md-6 m-auto">
+                    <img src="pexels-katerina-holmes-5905566.jpg" class="d-block w-100 custom-image" alt="Image 2">
+                </div>
+                <div class="col-md-6 m-auto">
+                    <p>We are a well-equipped learning institution offering education in two great curriculums, that's the British curriculum and the competency-based curriculum</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <p>
+        <h2>Our Team</h2>
+        </p><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 250px;">
+                        <img src="pexels-sora-shimazaki-5669604.jpg" class="d-block w-100" alt="Image 2" width="100%"
+                            height="100%">
+                        <div class="card-body">
+                            <h3 class="card-title">Founder and C.E.O</h3>
+                            <p class="card-text">Innovative CEO leading Christal School, transforming education with
+                                vision and dedication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 250px;">
+                        <img src="pexels-ono-kosuki-5647558.jpg" class="d-block w-100" alt="Image 2" width="40%"
+                            height="10%">
+                        <div class="card-body">
+                            <h3 class="card-title">Managing Director</h3>
+                            <p class="card-text">Dynamic Managing Director driving success with leadership, vision, and
+                                strategic expertise. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 250px;">
+                        <img src="pexels-tima-miroshnichenko-5686105.jpg" class="d-block w-100" alt="Image 2"
+                            width="40%" height="40%">
+                        <div class="card-body">
+                            <h3 class="card-title">Board</h3>
+                            <p class="card-text">Board members guide strategy, ensure compliance, and advise leadership
+                                for success.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>
+        <h2>Our Partners</h2>
+        </p>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/102017/logo_0.png?17TK91b1B6OvV2MFrCLfukw1c8oEaNr6&itok=vsanFiUj"
+                    alt="Partner 1">
+            </div>
+
+            <div class="col-md-4">
+                <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052019/google_2015_0.png?zk_RiD6W3Hpaibluf.mvDbgHnJui6WKj&itok=_KBQzAYO"
+                    alt="Partner 2">
+            </div>
+
+            <div class="col-md-4">
+                <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/082012/msft_logo_print.png?itok=rtI8ap8-"
+                    alt="Partner 3">
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 School Name. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

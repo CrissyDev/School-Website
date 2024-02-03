@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1974D2;
+  background-image: url('pexels-jess-bailey-designs-802647.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+/* header section starts here  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #1974D2;
+    color: #fff; 
+}
+
+.nav a {
+    margin-left: 10px; 
+    text-decoration: none;
+    color: #fff; 
+}
+
+.nav a:hover {
+    text-decoration: underline; 
+color: aqua;
+}
+/* header section ends here  */
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-container {
+    width: 48%;
+    box-sizing: border-box;
+  }
+  .container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon-container i {
+    font-size: 24px; 
+}
+
+.icon-label {
+    display: block;
+    margin-top: 5px; 
+}
+
+
+  .custom-image {
+    width: 100%; 
+    height: 500px;
+  }
+  .card {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05); 
+}
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px; 
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <!--Internal Css-->
+    <style>
+        body {
+            background-color: #f4f4f4; 
+            font-family: Arial, sans-serif; 
+        }
+
+        #carouselExample {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff; 
+            padding: 10px;
+            text-align: center;
+        }
+        table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+.carousel-item {
+            height: 150rem;
+
+        }
+        .carousel-item img{
+            width: 100%;
+            max-height: 600px;
+        }
+        .card {
+            width: 250px;
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-img-top {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .card-body {
+            padding: 1.25rem;
+        }
+
+        .card-title {
+            color: #333;
+            font-size: 1.5rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .card:hover .card-title {
+            color: #007bff;
+        }
+
+        .card-text {
+            color: #555;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .card:hover .card-text {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active h-25">
+                <img src="pexels-thnh-phng-698516.jpg" class="img-fluid d-block object-fit-cover h-aut" alt="Image 1"
+                    width="80%">
+            </div>
+            <div class="carousel-item active h-25">
+                <img src="pexels-katerina-holmes-5905927.jpg" class="d-block img-fluid" alt="Image 2" width="80%">
+
+            </div>
+            <div class="carousel-item active h-25">
+                <img src="pexels-rdne-stock-project-8499542.jpg" class="d-block img-fluid" alt="Image 2 "
+                    width="80%">
+            </div>
+            <!-- Add more carousel items as needed -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <p><h2>Learning Tracks</h2></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 250px;">
+                    <img src="pexels-yan-krukau-8612868.jpg" class="d-block w-100" alt="Image 2" width="100%" height="100%">
+<div class="card-body">
+<h3 class="card-title">Nursery</h3>
+<p class="card-text">Nursery school: Early education, play-based learning, social and cognitive development.
+</p>
+</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 250px;">
+                    <img src="pexels-mary-taylor-5896589.jpg" class="d-block w-100" alt="Image 2" width="40%" height="10%">
+<div class="card-body">
+<h3 class="card-title">Primary</h3>
+<p class="card-text">Primary school: Foundational education, basic skills,
+    social development, academic fundamentals.
+
+</p>
+</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 250px;">
+                    <img src="pexels-rdne-stock-project-8499491.jpg" class="d-block w-100" alt="Image 2" width="40%" height="40%">
+<div class="card-body">
+<h3 class="card-title">Junior Highschool</h3>
+<p class="card-text">Junior high: Intermediate education, diverse subjects, social development, academic transition.
+</p>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <p><h2>Fees Structure</h2></p>
+        <table>
+            <tr>
+              <th>School</th>
+              <th>Amount paid</th>
+            </tr>
+            <tr>
+              <td>Nursery</td>
+          <td>70,000</td>
+        </tr>
+        <tr>
+          <td>Primary</td>
+          <td>150,000</td>
+        </tr>
+        <tr>
+            <td>Junior High</td>
+            <td>250,000</td>
+          </tr>
+      </table>
+    <footer>
+        &copy; 2024 School Name. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
